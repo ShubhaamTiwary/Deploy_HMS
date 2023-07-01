@@ -76,31 +76,31 @@ const DashboardPage = () => {
             </div>
 
             <div className='w-full mt-3 ml-6 flex justify-start'>
-                <a href='http://localhost:3000/hostel-Registration'>
+                <a href='https://deploy2-5so1.onrender.com/hostel-Registration'>
                 <button className='bg-defaultBg w-32 h-8 border-2 border-slate-950 rounded-l-full rounded-r-full'>
                     <p className='font-popins text-normal'>+ Add Hostel</p>
                 </button>
                 </a>
 
-                <a href='http://localhost:3000/student-Registration'>
+                <a href='https://deploy2-5so1.onrender.com/student-Registration'>
                 <button className='bg-defaultBg w-36 h-8 border-2 border-slate-950 rounded-l-full rounded-r-full ml-10'>
                     <p className='font-popins text-normal'>+ Add Student</p>
                 </button>
                 </a>
 
-                <a href='http://localhost:3000/tower-Registration'>
+                <a href='https://deploy2-5so1.onrender.com/tower-Registration'>
                 <button className='bg-defaultBg w-32 h-8 border-2 border-slate-950 rounded-l-full rounded-r-full ml-10'>
                     <p className='font-popins text-normal'>+ Add Tower</p>
                 </button>
                 </a>
 
-                <a href='http://localhost:3000/wing-Registration'>
+                <a href='https://deploy2-5so1.onrender.com/wing-Registration'>
                 <button className='bg-defaultBg w-32 h-8 border-2 border-slate-950 rounded-l-full rounded-r-full ml-10'>
                     <p className='font-popins text-normal'>+ Add Wing</p>
                 </button>
                 </a>
 
-                <a href='http://localhost:3000/room-Registration'>
+                <a href='https://deploy2-5so1.onrender.com/room-Registration'>
                 <button className='bg-defaultBg w-32 h-8 border-2 border-slate-950 rounded-l-full rounded-r-full ml-10'>
                     <p className='font-popins text-normal'>+ Add Room</p>
                 </button>
