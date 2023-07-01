@@ -42,7 +42,7 @@ const App = () => {
       region: tempRegion
     }));
     try{
-      const response = await fetch('http://localhost:7000/allAddressDetails', {
+      const response = await fetch('https://deploy2-5so1.onrender.com/allAddressDetails', {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
@@ -69,7 +69,7 @@ const App = () => {
     }));
     console.log("Changed State",tempState);
     try{
-      const response = await fetch('http://localhost:7000/allAddressDetails', {
+      const response = await fetch('https://deploy2-5so1.onrender.com/allAddressDetails', {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
@@ -161,7 +161,7 @@ const App = () => {
     const formErrors = validateForm();
     if (Object.keys(formErrors).length === 0) {
       console.log('Form submitted successfully!');
-      axios.post('http://localhost:7000/hostel/registration', formData)
+      axios.post('https://deploy2-5so1.onrender.com/hostel/registration', formData)
       .then((response) => {
         // alert
         console.log('API response:', response.data);
